@@ -1,0 +1,6 @@
+services:
+  html:
+    build: 
+      context: .
+    ports:
+      - "8081:80"
